@@ -3,7 +3,7 @@ The goal is to perform simple tests and compare behavior between the two runtime
 
 Simply use: 
 
-# kubectl apply -f quarkus-petclinic/manifests/quarkus-petclinic.yaml
+```# kubectl apply -f quarkus-petclinic/manifests/quarkus-petclinic.yaml```
 
 and
 
