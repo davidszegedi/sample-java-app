@@ -11,7 +11,7 @@ and
 
 in order to deploy applications within their dedicated namespaces.
 
-You can generate basic load by executing mutiple isntances of curl, for instance: 
+You can generate basic load by executing mutiple instances of curl, for instance: 
 
 ```# while true; do curl -H "Cache-Control: no-cache, no-store, must-revalidate" -H "Pragma: no-cache" -H "Expires: 0" quarkus-petclinic-service.quarkus-petclinic.svc.cluster.local:8080/owners?lastName= ; done```
 
